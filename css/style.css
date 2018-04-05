@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+#fp {
+    width: 100%;
+    height: 650px;
+    position: absolute;
+    z-index: 2;
+    background-color: aquamarine;
+    overflow: hidden;
+}
+
+.bryan {
+    width: 100%;
+}
+#map {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+}
+
+#features {
+    width: 50%;
+    margin-left: 50%;
+    font-family: 'Open Sans', sans-serif;
+    overflow-y: scroll;
+    background-color: #fafafa;
+    padding-bottom: 215px;
+}
+
+section {
+    padding: 25px 50px;
+    line-height: 25px;
+    border-bottom: 1px solid #ddd;
+    opacity: 0.25;
+    font-size: 13px;
+}
+
+section.active {
+    opacity: 1;
+}
+
+section:last-child {
+    border-bottom: none;
+    margin-bottom: 200px;
+}
+
+h1 {
+    font-family: 'PT Sans', sans-serif;
+    
+        
+}
+
+.home{
+    width: 90%; 
+}
+
+.fly {
+    width: 90%;
+}
+
+.lejlighed {
+    width: 90%;
+}
+
+.opkald{
+    width: 90%;
+}
+
+.pigetaget {
+    width: 90%;
+}
+
+.mobil {
+    width: 90%;
+}
+
+.peter {
+    width: 90%;
+}
+
+.jakke {
+    width: 90%;
+}
+
+.besog {
+    width: 90%;
+}
+
+.kim {
+    width: 90%;
+}
+
+.mand {
+    width: 90%;
+}
+
+.end {
+    width: 90%;
+}
+
+
+
+.scroll-down {
+	position: absolute;
+	left: 50%;
+	bottom: 30px;
+	display: block;
+	text-align: center;
+	font-size: 50px;
+	z-index: 100;
+	text-decoration: none;
+	text-shadow: 0;
+  width: 30px;
+  height: 30px;
+  border-bottom: 4px solid #fff;
+  border-right: 4px solid #fff;
+  z-index: 9;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%) rotate(45deg);
+  -moz-transform: translate(-50%, 0%) rotate(45deg);
+  transform: translate(-50%, 0%) rotate(45deg);
+	-webkit-animation: fade_move_down 4s ease-in-out infinite;
+	-moz-animation:    fade_move_down 4s ease-in-out infinite;
+	animation:         fade_move_down 4s ease-in-out infinite;
+}
+
+
+/*animated scroll arrow animation*/
+@-webkit-keyframes fade_move_down {
+  0%   { -webkit-transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -webkit-transform:translate(0,10px) rotate(45deg); opacity: 0; }
+}
+@-moz-keyframes fade_move_down {
+  0%   { -moz-transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -moz-transform:translate(0,10px) rotate(45deg); opacity: 0; }
+}
+@keyframes fade_move_down {
+  0%   { transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { transform:translate(0,10px) rotate(45deg); opacity: 0; }
+}
